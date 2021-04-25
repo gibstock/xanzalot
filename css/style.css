@@ -72,4 +72,7 @@ footer {
         align-items: center;
         border: 1px solid black;
     }
+    footer {
+        flex-direction: column;
+    }
 }
