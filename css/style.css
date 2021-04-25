@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+#hero {
+    background-image: url('../images/josh-black.png');
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 25vh;
+}
+header h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+nav ul {
+    display: flex;
+
+}
+nav ul li {
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #000;
+
+}
+/* #main-head {
+    width: 40%;
+    margin: auto;
+} */
+#pic-grid {
+    display: flex;
+    flex-direction: row;
+
+}
+#pic-grid img {
+    max-width: 100%;
+    width: 500px;
+}
+footer {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
