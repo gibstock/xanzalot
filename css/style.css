@@ -51,8 +51,27 @@ footer {
     justify-content: center;
     gap: 1em;
 }
+.mobile-card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-card img {
+    transform: scale(1);
+    transition: transform ease 1s;
+}
+.mobile-card img:hover {
+    transform: scale(.8);
+    transition: transform ease 1s;
+
+
+}
 .mobile-card p {
-    display: none;
+    /* display: none; */
+    padding: 1em;
+    background-color: antiquewhite;
 }
 @media screen and (max-width: 768px) {
     nav ul {
@@ -71,6 +90,11 @@ footer {
         justify-content: center;
         align-items: center;
         border: 1px solid black;
+    }
+    .mobile-card p {
+        display: flex;
+        padding: 1em;
+        background-color: antiquewhite;
     }
     footer {
         flex-direction: column;
