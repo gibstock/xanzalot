@@ -141,10 +141,10 @@ section {
   z-index: -1;
 }
 
-.featured__details {
+/* .featured__details {
   opacity: 0;
   transition: opacity 250ms linear;
-}
+} */
 span {
   display: block;
   font-weight: 700;
@@ -227,6 +227,11 @@ span {
   }
   .product__title {
     margin: 0;
+  }
+
+  .featured__details {
+    opacity: 0;
+    transition: opacity 250ms linear;
   }
 }
 .hero {
