@@ -13,7 +13,7 @@ body {
 
 img {
     max-width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 h1,
@@ -160,6 +160,31 @@ span {
 
 }
 
+.accent_mid2 {
+  font-weight: 700;
+  color: #faa700;
+  display: inline;
+  font-size: 1.8rem;
+  font-style: italic;
+
+}
+.red {
+  font-weight: 700;
+  color: #a1173c;
+  display: inline;
+  font-size: 1.8rem;
+  font-style: italic;
+
+}
+.green {
+  font-weight: 700;
+  color: #008951;
+  display: inline;
+  font-size: 1.8rem;
+  font-style: italic;
+
+}
+
 .check {
   color: #a1173c;
   display: inline;
@@ -193,8 +218,8 @@ span {
   }
   .product__image {
     float: right;
-    width: 65%;
-    clear: both;
+    width: 45%;
+    /* clear: both; */
     /* outline: 2px solid red; */
     shape-outside: circle(40%);
     shape-margin: 1em;
@@ -225,3 +250,9 @@ span {
   
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
