@@ -151,6 +151,19 @@ span {
   font-size: 2.5rem;
 }
 
+.accent_mid {
+  font-weight: 700;
+  color: #2193b0;
+  display: inline;
+  font-size: 1.8rem;
+  font-style: italic;
+
+}
+
+.check {
+  color: #a1173c;
+  display: inline;
+}
 .product {
   background: radial-gradient(
     var(--clr-inner, limegreen),var(--clr-outer, purple)
@@ -180,7 +193,7 @@ span {
   }
   .product__image {
     float: right;
-    width: 35%;
+    width: 65%;
     clear: both;
     /* outline: 2px solid red; */
     shape-outside: circle(40%);
@@ -209,5 +222,6 @@ span {
   --clr-inner: #6dd5ed;
   --clr-outer: #2193b0;
   --clr-accent: #008951;
+  
 }
 
