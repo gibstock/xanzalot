@@ -191,8 +191,7 @@ span {
 }
 
 .edit {
-  width: 90%;
-  margin: auto;
+  display: none;
 }
 .product {
   background: radial-gradient(
@@ -238,9 +237,9 @@ span {
     opacity: 0;
     transition: opacity 250ms linear;
   }
-  .edit {
+  /* .edit {
     width: 100%;
-  }
+  } */
 }
 .hero {
   --clr-accent: #faa700;
