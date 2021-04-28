@@ -13,101 +13,161 @@
     <header class="hero">
 
         <div class="container spacing">
-            <h1 class="primary-title">Stick it to the Hedgies with pride!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consectetur provident sed, eum natus veritatis!</p>
+            <h1 class="primary-title">Hedgies R F*k</h1>
+            <p>Buy and HODL. It's as simple as that. Made these for my fellow Apes, demand rose so I made more.</p>
             <a href="#our-products" class="btn">See what we have</a>
         </div>
     </header>
     <main>
-        <section class="featured" id="featured">
-            <div class="container">
-                <h2 class="section-title">Featured Products</h2>
-                <div class="split">
-                    <a href="" class="featured_item">
-                        <img src="images-ok/men white t big.jpg" alt=""class="featured__img">
-                        <p class="featured__details"><span class="price">$18</span>OK Hedgie Light T Large</p>
-                    </a>
-                    <a href="" class="featured_item">
-                        <img src="images-ok/man black hoodie small.jpg" alt=""class="featured__img">
-                        <p class="featured__details"><span class="price">$49</span>OK Hedgie Dark Hoodie Small<br>(limited Stock)</p>
-                    </a>
-                    <a href="" class="featured_item">
-                        <img src="images-ok/men black t small.jpg" alt=""class="featured__img">
-                        <p class="featured__details"><span class="price">$26.50</span>OK Hedgie Dark T Small</p>
-                    </a>
-                </div>
-            </div>
-        </section>
+        
         <section class="our-products" id="our-products">
             <div class="container">
                 <h2 class="section-title">Our products</h2>
                 <article class="product shirt-1 spacing">
-                    <img src="images-ok/men white t big.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Loud Howard Style T-Shirt</h3>
-                    <p class="product__description">It's time to suit up! The <span class="accent_mid">MOASS</span> is coming and there is nothing the Hedgies can do about it. Let these MAD money hungry shills know they can't play with retail</p>
-                    <a href="" class="btn">Buy Now</a>
+                    <div id='product-component-1619573966921'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'xanzalot.myshopify.com',
+      storefrontAccessToken: '68b0088b0bd43f9a4b09013e8a0a2776',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6691410378920',
+        node: document.getElementById('product-component-1619573966921'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-size": "15.299999999999999px"
+      },
+      "unitPrice": {
+        "font-size": "15.299999999999999px"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {}
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+                    <a href="okhedgie.html#our-products" class="btn">Back to Products</a>
                 </article>
-                <article class="product shirt-2 spacing">
-                    <img src="images-ok/men white t small solo.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Laid Back Cali Fresh</h3>
-                    <p class="product__description">Soft shirt for when your tits are absolutely <span class="accent_mid">Jacked</span>. <br> <span class="check">&#10003;</span> Diamond Hands <br> <span class="check">&#10003;</span> Moon Ticket <br> <span class="check">&#10003;</span> Fresh T</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-3 spacing">
-                    <img src="images-ok/girl black tank.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Hedge Splitter 1 - 2</h3>
-                    <p class="product__description">Stay telling the Hedgies what to do while you're knocking heads at the gym. You think <span class="accent_mid2">HODLing</span> is easy? It's a finely tuned muscle that I get to flex every day!</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-1 spacing">
-                    <img src="images-ok/man black hoodie.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Late Night Drone Sesh</h3>
-                    <p class="product__description">Sometimes you gotta investigate why the lights are on at 4 in the morning. Sometimes you gotta fly your drone to investigate why the lights are on at 4 in the morning. Sometimes google says a place is <span class="accent_mid">REAL</span> busy at 4 in the morning so you take your drone to investigate. Stay warm during those times, with this.</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-3 spacing">
-                    <img src="images-ok/black hoodie woman.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Freedom Fighter</h3>
-                    <p class="product__description">Not all heroes wear capes, but all my current heroes are <span class="accent_mid2">APES</span>. Take a few laps around your local Hedgie HQ to show them some love <span class="accent_mid2">&hearts;</span> </p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-2 spacing">
-                    <img src="images-ok/men black t big.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Hold the line</h3>
-                    <p class="product__description">You gotta wear your ShillBlock, especially when you're sitting poolside on your <span class="accent_mid">post-squeeze</span> yaucht</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-1 spacing">
-                    <img src="images-ok/man black hoodie small.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Buy and HODL</h3>
-                    <p class="product__description">Not financial advise because I am not a financial advisor. I'm just a drooling ape that thinks <span class="red">red</span> crayons are meat and <span class="green">green</span> crayons are vegetables.</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-3 spacing">
-                    <img src="images-ok/tank-top-mockup-featuring-a-female-tennis-player-m2343-r-el2.jpg" alt="" class="product__image">
-                    <h3 class="product__title">WTF FTD's FTW!</h3>
-                    <p class="product__description">You keep playing games Hedgies. You take, and borrow, and short with your back-room tactits. We play by the rules <span class="accent_mid2">YOU</span> set, and we will win.</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-2 spacing">
-                    <img src="images-ok/men black t small.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Waiting for the Ape meetup</h3>
-                    <p class="product__description">We <span class="green">will</span> meet up after the squeeze. There will be parties, and galas, and charities, and donation centers, and love, and respect, and building people up, and sanctuaries, and education, and enrichment, and we will all seek to form a better society. And lots of snacks.</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-                <article class="product shirt-1 spacing">
-                    <img src="images-ok/ok-hedgie-hat.jpg" alt="" class="product__image">
-                    <h3 class="product__title">Beyond the squeeze</h3>
-                    <p class="product__description">We <span class="green">HELD</span> and we<span class="red">HELD</span> and we <span class="accent_mid">HELD</span>. We came out the other side better apes. Ape didn't fight Ape, Ape only helped Ape. </p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
+                
                 <article class="product shirt-2 spacing">
                     
                     <h3 class="product__title">I'm a real APE. </h3>
                     <p class="product__description"><p>Contact me if you have any concerns. I screenprint when I can, but I also use fulfillment centers to help, since I am but one Ape with xxx of you know what.</p>
                     <p>I use Google Analytics to track the amount of users that come to the site, but I do not track or sell information, nor do I opt into any ads on this site. Your information is safe.</p>
                     <p>All profits WILL go back into the squeeze</p>
-                    
+                    <a href="okhedgie.html#our-products" class="btn">Back to Products</a>
                 </article>
             </div>
         </section>
