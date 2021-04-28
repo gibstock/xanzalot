@@ -189,6 +189,11 @@ span {
   color: #a1173c;
   display: inline;
 }
+
+.edit {
+  width: 90%;
+  margin: auto;
+}
 .product {
   background: radial-gradient(
     var(--clr-inner, limegreen),var(--clr-outer, purple)
@@ -232,6 +237,9 @@ span {
   .featured__details {
     opacity: 0;
     transition: opacity 250ms linear;
+  }
+  .edit {
+    width: 100%;
   }
 }
 .hero {
